@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 805d4717560c466793843f09f28d8e40, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: SA.Shape.Unity::SA.Shape.Unity.ShapeAuthoring
   Family: {fileID: 155974732}
   Definition: {fileID: 11400000, guid: 2a18fdf948029ecb2b32bd917d2e8170, type: 2}
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f16f2415da95fca7db3cd9ffcc78659b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: SA.Runtime::SA.SharedFamilyAuthoring
   Rig: {fileID: 155974733}
   Clips:
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47b30210084d6ef1b97abeff32ff768c, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: SA.Runtime::SA.RigAuthoring
   Clips:
   - {fileID: 1827226128182048838, guid: a4b8f2deec6a99945987cfc59b1b4e54, type: 3}
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd2a94e73510d6fecb2e5f241e04e9e4, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: SA.Runtime::SA.SkinAuthoring
   Rig: {fileID: 155974733}
   Bones:
@@ -277,7 +277,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2f311959c3c71a5709d440b224d2b6a8, type: 2}
+  - {fileID: 2100000, guid: 20fa6a5856cc02d4e9e3f70828108163, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

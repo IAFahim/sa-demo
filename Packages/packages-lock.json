@@ -1,20 +1,22 @@
 {
   "dependencies": {
     "com.sa.motion.unity": {
-      "version": "file:com.sa.motion.unity",
+      "version": "https://github.com/IAFahim/sa-motion.git?path=packages/com.sa.motion.unity#056f8c4f9a8cc0afeccdd0f0a5101998c2c4b17c",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "056f8c4f9a8cc0afeccdd0f0a5101998c2c4b17c"
     },
     "com.sa.unity": {
-      "version": "file:com.sa.unity",
+      "version": "https://github.com/IAFahim/com.sa.unity.git#1aa591e42f982bce167d42bf45117a31c868fc31",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.sa.motion.unity": "0.1.0",
         "com.unity.entities": "6.7.0",
         "com.unity.entities.graphics": "6.7.0"
-      }
+      },
+      "hash": "1aa591e42f982bce167d42bf45117a31c868fc31"
     },
     "com.unity.burst": {
       "version": "2.0.0",
@@ -156,6 +158,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.sdk.linux-x86_64": {
+      "version": "1.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot.base": "1.1.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.searcher": {
       "version": "4.9.5",
       "depth": 2,
@@ -172,6 +183,13 @@
         "com.unity.searcher": "4.9.5",
         "com.unity.graph-authoring": "1.0.0"
       }
+    },
+    "com.unity.sysroot.base": {
+      "version": "1.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.9.0",
@@ -201,6 +219,15 @@
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
       }
+    },
+    "com.unity.toolchain.linux-x86_64-linux": {
+      "version": "1.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot.base": "1.1.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
       "version": "7.0.0",

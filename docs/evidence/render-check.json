@@ -1,0 +1,17 @@
+{
+  "api": "Vulkan",
+  "packages": "pinned Git dependencies",
+  "rigBones": 52,
+  "paletteEntries": 50,
+  "finiteNonsingularMatrices": true,
+  "shapeViewportChangedPixelsAbove3": 50345,
+  "restoredViewportChangedPixelsAbove3": 0,
+  "restoredMatricesExact": true,
+  "restoredJointsExact": true,
+  "maximumPaletteComponentChange": 0.17944860000000007,
+  "supportGroundErrors": [
+    -3.7252903e-08,
+    1.0803342e-07
+  ],
+  "clipSample": 0
+}

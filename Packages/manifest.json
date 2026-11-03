@@ -1,13 +1,17 @@
 {
   "dependencies": {
-    "com.unity.ide.rider": "3.1.0",
+    "com.sa.motion.unity": "https://github.com/IAFahim/sa-motion.git?path=packages/com.sa.motion.unity#056f8c4f9a8cc0afeccdd0f0a5101998c2c4b17c",
+    "com.sa.unity": "https://github.com/IAFahim/com.sa.unity.git#1aa591e42f982bce167d42bf45117a31c868fc31",
     "com.unity.entities": "6.7.0",
     "com.unity.entities.graphics": "6.7.0",
-    "com.unity.test-framework": "1.9.0",
+    "com.unity.ide.rider": "3.1.0",
     "com.unity.inputsystem": "7.0.0",
     "com.unity.pipeline": "0.9.1-exp.1",
     "com.unity.render-pipelines.universal": "17.7.0",
+    "com.unity.sdk.linux-x86_64": "1.1.0",
+    "com.unity.test-framework": "1.9.0",
     "com.unity.timeline": "6.7.0",
+    "com.unity.toolchain.linux-x86_64-linux": "1.1.0",
     "com.unity.ugui": "7.0.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
@@ -48,5 +52,9 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "testables": [
+    "com.sa.unity",
+    "com.sa.motion.unity"
+  ]
 }

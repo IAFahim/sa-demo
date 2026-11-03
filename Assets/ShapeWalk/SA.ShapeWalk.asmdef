@@ -1,0 +1,1 @@
+{"name":"SA.ShapeWalk","references":["SA.Runtime","SA.Shape.Unity","Unity.Entities","Unity.Collections"],"overrideReferences":true,"precompiledReferences":["SA.Motion.dll","SA.Animation.dll","SA.Shape.dll"],"autoReferenced":true}
